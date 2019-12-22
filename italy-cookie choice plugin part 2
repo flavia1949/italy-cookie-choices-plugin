@@ -1,0 +1,8 @@
+this is what I got in wordpress whe I try to reactivate italy-cookie-choices "Warning: require(): open_basedir restriction in effect. File(/usr/share/pear/__DIR__/define-constants.php) is not within the allowed path(s): (/var/www/vhosts/antrocom.net/:/tmp/) 
+in /var/www/vhosts/antrocom.net/httpdocs/wp-content/plugins/italy-cookie-choices/italy-cookie-choices.php on line 39 
+Warning: require(): open_basedir restriction in effect. File(/usr/share/php/__DIR__/define-constants.php) is not within the allowed path(s): (/var/www/vhosts/antrocom.net/:/tmp/) 
+in /var/www/vhosts/antrocom.net/httpdocs/wp-content/plugins/italy-cookie-choices/italy-cookie-choices.php on line 39 
+Warning: require(__DIR__/define-constants.php): failed to open stream: No such file or directory in /var/www/vhosts/antrocom.net/httpdocs/wp-content/plugins/italy-cookie-choices/italy-cookie-choices.php on line 39
+ Warning: require(__DIR__/define-constants.php): failed to open stream: No such file or directory in /var/www/vhosts/antrocom.net/httpdocs/wp-content/plugins/italy-cookie-choices/italy-cookie-choices.php on line 39 
+Warning: require(__DIR__/define-constants.php): failed to open stream: No such file or directory in /var/www/vhosts/antrocom.net/httpdocs/wp-content/plugins/italy-cookie-choices/italy-cookie-choices.php on line 39 
+Fatal error: require(): Failed opening required '__DIR__/define-constants.php' (include_path='.:/usr/share/pear:/usr/share/php') in /var/www/vhosts/antrocom.net/httpdocs/wp-content/plugins/italy-cookie-choices/italy-cookie-choices.php on line 39" can you hel me ?
